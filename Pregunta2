@@ -1,0 +1,5 @@
+Explique el algoritmo de ordenación con el método de la inserción:
+Este método consiste en la creación de una nueva lista, siguiéndose los siguientes pasos:
+-Primero, el primer elemento de la lista a ordenar se coloca como el primer elemento de la nueva lista.
+-Luego, el segundo elemento de la lista original se compara con el elemento ya colocado, insertándose este nuevo elemento antes del primer elemento en caso de ser menor o después en caso de ser mayor.
+-Después se repite el proceso: cada elemento nuevo que va siendo agregado se compara con los ya presentes hasta encontrar los dos elementos entre los que se va a situar y se inserta en dicho lugar (desplazando todos los elementos mayores hacia la derecha) hasta que todos los elementos hayan sido agregados.
