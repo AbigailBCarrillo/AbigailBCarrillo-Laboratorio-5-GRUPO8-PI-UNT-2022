@@ -1,0 +1,15 @@
+EXPLIQUE QUE ES UNA LISTA EN PYTHON
+
+En python una lista son variables que almacenan arrays internamente, un dato importante es que pueden ser de tipos de datos distintos, lo cual ayuda a muchas aplicaciones.
+Por ejemplo:
+	>>> a = [100 , 34.2 , 'avion']
+Una lista tiene una secuencia ordenada y se puede acceder a ella a traves de su índice, el cual empieza a partir del 0.
+	>>> a[2]
+	'avion'
+La función len() nos indica la cantidad de datos que existen en la lista.	
+	>>> len(a)
+	3
+Tambien puedes cambiar elementos de la lista de la siguiente manera:
+	>>> a[2]='perro'
+	>>> a
+	[100 , 34.2 , 'perro']
