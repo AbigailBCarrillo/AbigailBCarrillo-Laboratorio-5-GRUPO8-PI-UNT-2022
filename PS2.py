@@ -1,5 +1,3 @@
-from cmath import sqrt
-
 X1 = []
 X2 = []
 promedio = []
