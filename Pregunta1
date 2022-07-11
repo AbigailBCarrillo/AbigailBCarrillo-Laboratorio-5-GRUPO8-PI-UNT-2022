@@ -1,0 +1,14 @@
+1.	Explique los tipos de datos en Python y si estos se declaran
+
+Tipos de datos:
+-	Booleano (bool): Solo se puede instanciar con dos valores: True para representar verdadero y False para representar falso.
+-	Entero (int): Son los números que no tienen decimales y pueden ser positivos y negativos (el 0 es un entero también).
+-	Flotante (float): Representa cualquier número real (siempre teniendo en cuenta que es una aproximación).
+-	Complejo (complex): Son los números que tiene una parte real y una imaginaria. Se sigue la estructura <parte_real>+<parte_imaginaria>j.
+-	Cadena (str): Secuencia inmutable de caracteres en formato Unicode. Son texto cerrado entre comillas (simples o dobles).
+-	Tupla (tuple): Secuencias inmutables de valores.
+-	Lista (list): Secuencias mutables de valores. Almacenan vectores (arrays), pueden tener diferentes tipos de datos.
+-	Conjunto (set): Son una colección de datos sin elementos que se repiten.
+-	Diccionario (dict): Define los datos uno a uno entre un campo y un valor.
+
+Estos datos sí se declaran, porque algunas funciones predeterminadas en Python permitan transformar un tipo de dato en otro.
